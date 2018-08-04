@@ -22,6 +22,10 @@ gem 'puma', '~> 3.7'
 gem 'pg'
 # For env variables
 gem "figaro"
+gem 'bcrypt', '~> 3.1.7'
+gem 'pry'
+gem 'jwt'
+gem 'active_model_serializers', '~> 0.10.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
