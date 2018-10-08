@@ -23,7 +23,7 @@ class V1::PasswordsController < ApplicationController
   def reset
     token = params[:token].to_s
 
-    if token.blank?}
+    if token.blank?
       json_response({ message: Message.missing_token }, :bad_request)
     end
 
