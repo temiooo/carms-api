@@ -24,4 +24,4 @@ test:
 
 production:
   <<: *default
-  database: carms-api-prod
+  database: <%= ENV["DATABASE_URL"] %>
